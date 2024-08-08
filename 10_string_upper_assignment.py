@@ -59,3 +59,13 @@ print(str.endswith("!!!"))
 
 str = "he's name is ram. He is an honest man."
 print(str.find("is"))
+
+# replace(most imp string):
+data = "i love veg food"
+changed_data = data.replace('veg','non veg')
+print(changed_data)
+
+# split();
+user_email = "mohan@gmail.com"
+ split_data_first = user_email.split('@')
+print(split_data_first)
