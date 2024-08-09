@@ -65,7 +65,18 @@ data = "i love veg food"
 changed_data = data.replace('veg','non veg')
 print(changed_data)
 
-# split();
-user_email = "mohan@gmail.com"
- split_data_first = user_email.split('@')
-print(split_data_first)
+
+#  user_email = "mohan@gmail.com"
+# split_data_first = user_email.split('@')
+# print(split_data_first)
+# second_part = split_data_first[1]
+# print(second_part)
+# split_second_part = second_part.split('.')
+# print(split_second_part)
+
+
+# second_part = split_data_first[1]
+# second_part_split = second_part.split('.')
+# print([split_data_first[0]],second_part_split[0],second_part_split[1])
+
+
