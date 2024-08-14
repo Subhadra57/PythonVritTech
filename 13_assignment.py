@@ -11,9 +11,13 @@
 # elif operator =='-':
 #     perform operation.
 
-    #wap to find input number is prime or composite 
+    #wap to find input number is prime or composite
 
-            #wap to make a calculator.
+    #tkinter pyp
+
+
+
+        #wap to make a calculator.
 
 def add(x, y):
     return x + y
