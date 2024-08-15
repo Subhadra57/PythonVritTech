@@ -1,8 +1,8 @@
 #WAP to find lowest number amongs  "822457313496"
 
 data = "822457313496"
+lowest_number = 9
 
-lowest_number = 0
 
 
 for number in data:
