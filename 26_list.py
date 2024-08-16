@@ -1,23 +1,14 @@
-# # name = "month"
+name_list = ["ram","hari",1,5,9]
 
-# # name_list = ["januray","march","may"]
-# # print(name_list)
+# print(name_list[0])
 
-# #list constructor
+# print(name_list[-2])
 
-# # name_list = ["ram", "hari",1,2,3]
+# print(name_list[start:end:step])
 
-# name_list = ["ram","hari",1,5,9]
+# print(name_list[5::-2])
 
-# # print(name_list[0])
-
-# # print(name_list[-2])
-
-# # print(name_list[start:end:step])
-
-# # print(name_list[5::-2])
-
-# #add element in list
+#add element in list
 # name_list.append("kathmandu")
 # name_list.append("biratnagar")
 
@@ -42,25 +33,15 @@
 # print(name_list)
 
 
-# #Accessing item using loop
+#Accessing item using loop
 
 
 
 
 #class work find highes digit from list [1,5,9,6,89,1203,4,23]
 list_number = [1,5,9,6,89,1203,4,23]
-print (max(list_number))
+# print(max(list_number))
 
 #class work to short given list [1,5,9,6,89,1203,4,23]
 list_number.sort()
 print(list_number)
-
-#swap number a=50,b=80
-a = 50
-b = 80
-print("before swap a,b=",a,":"b)
-temp = a
-a = b
-b = temp
-print("before swap a,b=",a,":"b)
-
