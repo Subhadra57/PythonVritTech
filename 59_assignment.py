@@ -18,8 +18,8 @@
 
 #     def triangle(height):
 #          print("calculate")
-
 #     import math
+
 import math
 
 class Circle:
@@ -29,7 +29,6 @@ class Circle:
     def calculate_area(self):
         return math.pi * self.radius * self.radius
 
-# Example usage
 circle = Circle(5)
 print(f"Area of the circle: {circle.calculate_area()}")
 
@@ -44,7 +43,6 @@ class Rectangle:
     def calculate_area(self):
         return self.width * self.height
 
-# Example usage
 rectangle = Rectangle(4, 6)
 print(f"Area of the rectangle: {rectangle.calculate_area()}")
 
@@ -58,7 +56,6 @@ class Square:
     def calculate_area(self):
         return self.side_length * self.side_length
 
-# Example usage
 square = Square(4)
 print(f"Area of the square: {square.calculate_area()}")
 
@@ -74,7 +71,6 @@ class Triangle:
     def calculate_area(self):
         return 0.5 * self.base * self.height
 
-# Example usage
 triangle = Triangle(5, 3)
 print(f"Area of the triangle: {triangle.calculate_area()}")
 

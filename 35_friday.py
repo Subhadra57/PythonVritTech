@@ -120,25 +120,25 @@
 13 # Write a Python program that takes a list of students'
 # names and their corresponding marks in a subject, stores them in a dictionary, and then calculates and prints the average mark.
 
-def calculate_average_marks():
-    # Create an empty dictionary to store student names and marks
-    students_marks = {}
+# def calculate_average_marks():
+#     # Create an empty dictionary to store student names and marks
+#     students_marks = {}
     
-    # Number of students
-    num_students = int(input("Enter the number of students: "))
+#     # Number of students
+#     num_students = int(input("Enter the number of students: "))
     
-    # Get student names and marks from the user
-    for _ in range(num_students):
-        name = input("Enter the student's name: ")
-        mark = float(input(f"Enter {name}'s mark: "))
-        students_marks[name] = mark
+#     # Get student names and marks from the user
+#     for _ in range(num_students):
+#         name = input("Enter the student's name: ")
+#         mark = float(input(f"Enter {name}'s mark: "))
+#         students_marks[name] = mark
     
-    # Calculate the average mark
-    total_marks = sum(students_marks.values())
-    average_mark = total_marks / num_students
+#     # Calculate the average mark
+#     total_marks = sum(students_marks.values())
+#     average_mark = total_marks / num_students
     
-    # Print the average mark
-    print(f"The average mark is: {average_mark:.2f}")
+#     # Print the average mark
+#     print(f"The average mark is: {average_mark:.2f}")
 
-# Call the function
-calculate_average_marks()
+# # Call the function
+# calculate_average_marks()
